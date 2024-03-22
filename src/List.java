@@ -24,6 +24,9 @@ public class List {
     }
 
     private static void celebrateAnniversary(int years) {
-        System.out.println("Gratulacje dla 7 idoli Stray Kids z okazji " + years + ". rocznicy!");
+        byte yearsAsByte = (byte) years;
+        System.out.println("Gratulacje dla 7 idoli Stray Kids z okazji " + yearsAsByte + ". rocznicy!");
     }
-}
+
+    }
+
